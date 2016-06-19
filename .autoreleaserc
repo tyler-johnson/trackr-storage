@@ -3,7 +3,6 @@
 	"preset": "angular",
 	"pre": {
 		"verify": [
-			"autorelease/verify",
 			"autorelease-github/verify.js",
 			"autorelease-travis/verify.js"
 		]
