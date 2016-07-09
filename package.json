@@ -16,7 +16,7 @@
     "autorelease": "autorelease pre && npm publish && autorelease post"
   },
   "dependencies": {
-    "trackr-objects": "^0.4.0"
+    "trackr-objects": "^1.0.0"
   },
   "devDependencies": {
     "autorelease": "^1.7.1",
@@ -29,8 +29,8 @@
     "babel-plugin-transform-es2015-parameters": "^6.9.0",
     "babel-plugin-transform-object-rest-spread": "^6.8.0",
     "babel-preset-es2015-rollup": "^1.1.1",
-    "eslint": "^2.13.0",
-    "rollup": "^0.32.0",
+    "eslint": "^3.0.0",
+    "rollup": "^0.33.0",
     "rollup-plugin-babel": "^2.5.1",
     "rollup-plugin-json": "^2.0.0"
   },
