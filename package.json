@@ -16,7 +16,7 @@
     "autorelease": "autorelease pre && npm publish && autorelease post"
   },
   "dependencies": {
-    "trackr-objects": "^0.4.0"
+    "trackr-objects": "^1.0.0"
   },
   "devDependencies": {
     "autorelease": "^1.7.1",
