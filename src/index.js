@@ -47,6 +47,11 @@ export default class Storage extends Map {
 		if (opts.clear !== false) this.clear();
 		return this.set(Storage.deserializeStore(this.storageType, this.storageKey));
 	}
+
+	default(key, value) {
+		if (!this.has(key)) this.set(key, value);
+		return this;
+	}
 }
 
 ["set","delete","clear"].forEach(function(method) {
